@@ -20,7 +20,7 @@ public with sharing class industryTester {
         test.startTest();
          insert accList;
         test.stopTest();
-       
+       system.debug('Insert triggerConfig');
       //system.assertequals(200,newAcc.size());              
     }
 
